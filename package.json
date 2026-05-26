@@ -1,0 +1,19 @@
+{
+  "name": "brand-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@slack/bolt": "^4.6.0",
+    "dotenv": "^17.3.1",
+    "googleapis": "^171.4.0"
+  }
+}
