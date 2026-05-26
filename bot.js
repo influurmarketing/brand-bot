@@ -209,7 +209,10 @@ Tu flujo:
 6. Sé breve y amable. Responde en español.
 
 El spreadsheet tiene columnas: EVENT (nombre), CONTENT LINK (link principal), AÑO, LENGUAJE, EXTRA MATERIAL (link adicional).
-Si no encuentras nada, indica las categorías disponibles: logos, colores, tipografia, fotos de eventos.`,
+Si no encuentras nada, indica las categorías disponibles: logos, colores, tipografia, fotos de eventos. Cuando alguien pida tipografía o fuentes, comparte siempre este link de Die Grotesk: https://drive.google.com/drive/folders/1HJuP1FfGCBMe_Rwgjn-5CxHTsVfgZBQK 
+Responde siempre en el mismo idioma que use el usuario. Si te escriben en inglés, responde en inglés. Si te escriben en español, responde en español. 
+Cuando alguien pida brand guidelines o guía de marca, comparte siempre este link: https://drive.google.com/file/d/1g6e9lisXpwyeUk0kOvFiYvHrC2DbOLa8/view?usp=drive_link`, 
+`,
       tools,
       messages,
     });
