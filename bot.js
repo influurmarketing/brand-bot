@@ -22,7 +22,7 @@ const slack = new App({
 });
 
 const driveAuth = new google.auth.GoogleAuth({
-  keyFile: process.env.GOOGLE_SERVICE_ACCOUNT_KEY_FILE,
+  credentials: JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON),
   scopes: ["https://www.googleapis.com/auth/drive.readonly"],
 });
 const drive = google.drive({ version: "v3", auth: driveAuth });
